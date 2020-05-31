@@ -21,7 +21,7 @@ public class Homepage extends DriverFactory {
     @FindBy(id = "DestinationTo")
     WebElement destination;
 
-    @FindBy(xpath = "//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[6]/td[1]/a")
+    @FindBy(xpath = "//a[@class='ui-state-default ui-state-hover']")
     WebElement departureDate;
 
     @FindBy(xpath = "//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[2]/td[4]/a")

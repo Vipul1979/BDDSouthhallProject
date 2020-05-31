@@ -26,13 +26,13 @@ public class HomepageStepDef {
     homepage.destinationTo();
     }
 
-    @When("^user select departing date (\\d+)st May$")
+    @When("^user select departing date (\\d+)th June$")
     public void user_select_departing_date_th_May(int arg1) throws Throwable {
        homepage.dateFrom();
         // Write code here that turns the phrase above into concrete actions
     }
 
-    @When("^user select return date (\\d+)th May$")
+    @When("^user select return date (\\d+)th June$")
     public void user_select_return_date_th_May(int arg1) throws Throwable {
        homepage.returnDate();
         // Write code here that turns the phrase above into concrete actions
